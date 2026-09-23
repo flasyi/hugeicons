@@ -1,4 +1,4 @@
-# @hugeicons/solid
+# @hugeicons/solid-js
 
 ## 1.0.0
 

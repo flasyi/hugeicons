@@ -113,7 +113,7 @@ importers:
         specifier: ^5.0.0
         version: 5.9.3
 
-  packages/solid:
+  packages/solid-js:
     devDependencies:
       rollup:
         specifier: ^3.0.0

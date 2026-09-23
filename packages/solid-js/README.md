@@ -1,6 +1,6 @@
 ![Hugeicons Logo](https://raw.githubusercontent.com/hugeicons/hugeicons/main/assets/logo.png)
 
-# @hugeicons/solid
+# @hugeicons/solid-js
 
 > A fast, customizable, tree-shakeable SolidJS icon renderer for Hugeicons. Use `HugeiconsIcon` with `@hugeicons/core-free-icons` or `@hugeicons-pro/core-*` to render SVG icons in SolidJS (TypeScript-ready).
 
@@ -10,7 +10,7 @@ Hugeicons is a beautiful [icon library](https://hugeicons.com/solid-icons) for m
 
 ## How It Works
 
-This package (`@hugeicons/solid`) is a **rendering library** - it provides the `HugeiconsIcon` component that displays icons in your SolidJS app. The icons themselves come from separate icon packages:
+This package (`@hugeicons/solid-js`) is a **rendering library** - it provides the `HugeiconsIcon` component that displays icons in your SolidJS app. The icons themselves come from separate icon packages:
 
 - **Free icons**: `@hugeicons/core-free-icons` (6,000+ icons)
 - **Pro icons**: `@hugeicons-pro/core-*` packages (60,000+ icons, requires license)
@@ -61,22 +61,22 @@ This package (`@hugeicons/solid`) is a **rendering library** - it provides the `
 
 ```bash
 # Using npm
-npm install @hugeicons/solid @hugeicons/core-free-icons
+npm install @hugeicons/solid-js @hugeicons/core-free-icons
 
 # Using yarn
-yarn add @hugeicons/solid @hugeicons/core-free-icons
+yarn add @hugeicons/solid-js @hugeicons/core-free-icons
 
 # Using pnpm
-pnpm add @hugeicons/solid @hugeicons/core-free-icons
+pnpm add @hugeicons/solid-js @hugeicons/core-free-icons
 
 # Using bun
-bun add @hugeicons/solid @hugeicons/core-free-icons
+bun add @hugeicons/solid-js @hugeicons/core-free-icons
 ```
 
 ## Usage
 
 ```jsx
-import { HugeiconsIcon } from '@hugeicons/solid';
+import { HugeiconsIcon } from '@hugeicons/solid-js';
 import { SearchIcon } from '@hugeicons/core-free-icons';
 
 function App() {
@@ -111,7 +111,7 @@ function App() {
 
 ### Basic Usage
 ```jsx
-import { HugeiconsIcon } from '@hugeicons/solid';
+import { HugeiconsIcon } from '@hugeicons/solid-js';
 import { SearchIcon } from '@hugeicons/core-free-icons';
 
 <HugeiconsIcon icon={SearchIcon} />
@@ -144,7 +144,7 @@ import { NotificationIcon } from '@hugeicons/core-free-icons';
 ### Common Issues
 
 1. **Icons not showing up?**
-   - Make sure you've installed both `@hugeicons/solid` and `@hugeicons/core-free-icons`
+   - Make sure you've installed both `@hugeicons/solid-js` and `@hugeicons/core-free-icons`
    - Check that the icon names are correctly imported
 
 2. **TypeScript errors?**
@@ -190,7 +190,7 @@ The library supports all modern browsers.
 
 ## License
 
-The code in this package (`@hugeicons/solid`) is licensed under the MIT License.
+The code in this package (`@hugeicons/solid-js`) is licensed under the MIT License.
 
 This package only provides rendering utilities. It does not include or grant any rights to Hugeicons icon assets. Using Pro icon styles requires a valid Hugeicons Pro license.
 
